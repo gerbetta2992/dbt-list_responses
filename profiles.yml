@@ -1,0 +1,24 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      account: sogxoay-bkb73351
+      client_session_keep_alive: false
+      connect_retries: 3
+      connect_timeout: 15
+      database: ALCHEMER
+      password: ^Pmp83ASK51Yp21P
+      query_tag: normalization
+      retry_all: true
+      retry_on_database_errors: true
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 5
+      type: snowflake
+      user: FORTISOFT
+      warehouse: COMPUTE_WH
+  target: prod
